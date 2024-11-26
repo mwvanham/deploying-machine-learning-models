@@ -38,7 +38,7 @@ jobs:
           path: ~/project
       - *prepare_tox
       - run:
-          name: Runnning app tests
+          name: Running app tests
           command: |
             tox
 
